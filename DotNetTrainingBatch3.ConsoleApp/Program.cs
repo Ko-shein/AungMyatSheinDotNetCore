@@ -1,33 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using DotNetTrainingBatch3.ConsoleApp.AdoDotNetExamples;
 using System.Data;
 using System.Data.SqlClient;
 
-Console.WriteLine("Hello, World!");
 
-//Console.Readline();
 
-# region Read
-SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder(); 
-sqlConnectionStringBuilder.DataSource = ".";
-sqlConnectionStringBuilder.InitialCatalog = "TestDb";
-sqlConnectionStringBuilder.UserID = "sa";
-sqlConnectionStringBuilder.Password = "shein@";
-SqlConnection sqlConnection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
 
-string query = "SELECT * FROM Blog_Tb";
-sqlConnection.Open();
-SqlCommand cmd = new SqlCommand(query, sqlConnection);
-SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-DataTable dt = new DataTable();
-adapter.Fill(dt);
-sqlConnection.Close();
-foreach (DataRow dr in dt.Rows)
-{
-    Console.WriteLine(dr["BlogId"]);
-    Console.WriteLine(dr["BlogTitle"]);
-    Console.WriteLine(dr["BlogAuthor"]);
-    Console.WriteLine(dr["BlogContent"]);
-}
-#endregion
-
+AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+//adoDotNetExample.Read();
+//adoDotNetExample.Edit(1);
+//adoDotNetExample.Edit(11);
+//adoDotNetExample.Create(title:"test title",author:"test author",content:"test content");
+//adoDotNetExample.Update(id: 7,title: "test title update", author: "test author update", content: "test content update");
+adoDotNetExample.Delete(7);
 Console.ReadKey();
