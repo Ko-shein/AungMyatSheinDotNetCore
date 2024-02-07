@@ -21,4 +21,6 @@ DapperExample dapperExample = new DapperExample();
 //dapperExample.Edit(1);
 //dapperExample.Edit(11);
 dapperExample.Create(title: "test title", author: "test author", content: "test content");
+dapperExample.Update(id: 7,title: "test title update", author: "test author update", content: "test content update");
+dapperExample.Delete(7);
 Console.ReadKey();
