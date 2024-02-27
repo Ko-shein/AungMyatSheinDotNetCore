@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace DotNetTrainingBatch3.ConsoleApp.Models
 {
     [Table ("Blog_Tb")]
-    internal class BlogModel
+    public class BlogModel
     {
         [Key]
         public int BlogId { get; set; }

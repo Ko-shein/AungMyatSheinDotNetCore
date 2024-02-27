@@ -19,6 +19,6 @@ namespace DotNetTrainingBatch3.WebApi
             optionsBuilder.UseSqlServer(sqlConnectionStringBuilder.ConnectionString);
         }
 
-        public DbSet<BlogModel> Blogs { get; set; }
+         public DbSet<BlogModel> Blogs { get; set; }
     }
 }
