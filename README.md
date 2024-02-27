@@ -55,7 +55,7 @@ Successful responses (200 – 299)
 Redirection messages (300 – 399)
 Client error responses (400 – 499)
 Server error responses (500 – 599)
-image info
+[image info](https://camo.githubusercontent.com/c78173c25ad8ec6b80108381a68784577d43861860b5f73d038baf212b4ee070/68747470733a2f2f6d656469612e6765656b73666f726765656b732e6f72672f77702d636f6e74656e742f75706c6f6164732f32303233303231363137303334392f576861742d69732d616e2d4150492e706e67)
 
 https://stackoverflow.com/questions/17615260/the-certificate-chain-was-issued-by-an-authority-that-is-not-trusted-when-conn
 
