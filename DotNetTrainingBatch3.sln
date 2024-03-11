@@ -10,9 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch3.WebApi", "DotNetTrainingBatch3WebApi\DotNetTrainingBatch3.WebApi.csproj", "{B3D887C7-6B63-4C4B-A2F7-CB70359A9F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch3.WebApi", "DotNetTrainingBatch3WebApi\DotNetTrainingBatch3.WebApi.csproj", "{B3D887C7-6B63-4C4B-A2F7-CB70359A9F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch3.BirdWebApi", "DotNetTrainingBatch3.BirdWebApi\DotNetTrainingBatch3.BirdWebApi.csproj", "{7CD201CB-7F95-4F60-B511-D4BC52DFCE83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch3.BirdWebApi", "DotNetTrainingBatch3.BirdWebApi\DotNetTrainingBatch3.BirdWebApi.csproj", "{7CD201CB-7F95-4F60-B511-D4BC52DFCE83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch3.MvpApp", "DotNetTrainingBatch3.MvpApp\DotNetTrainingBatch3.MvpApp.csproj", "{BB1638DD-88F6-4D88-8786-EAAA8E67B30C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{7CD201CB-7F95-4F60-B511-D4BC52DFCE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CD201CB-7F95-4F60-B511-D4BC52DFCE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CD201CB-7F95-4F60-B511-D4BC52DFCE83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1638DD-88F6-4D88-8786-EAAA8E67B30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1638DD-88F6-4D88-8786-EAAA8E67B30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1638DD-88F6-4D88-8786-EAAA8E67B30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1638DD-88F6-4D88-8786-EAAA8E67B30C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
